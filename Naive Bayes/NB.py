@@ -1,7 +1,8 @@
 import numpy as np
 
-
 # p(y | X) = P(X | y) . P(y) / P(X)
+# x = feature/characteristics, y = output
+# https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf
 class NaiveBayes:
 
     def fit(self, X, y):
